@@ -33,7 +33,7 @@
    to the remote share AzureArcOnBoard in the Server.contoso.com server
 
    .\DeployGPO.ps1 -DomainFQDN contoso.com -ReportServerFQDN Server.contoso.com -ArcRemoteShare AzureArcOnBoard -ServicePrincipalSecret $ServicePrincipalSecret 
-       -ServicePrincipalClientId $ServicePrincipalClientId -SubscriptionId $SubscriptionId --ResourceGroup $ResourceGroup -Location $Location -TenantId $TenantId 
+       -ServicePrincipalClientId $ServicePrincipalClientId -SubscriptionId $SubscriptionId -ResourceGroup $ResourceGroup -Location $Location -TenantId $TenantId 
        [-AgentProxy $AgentProxy]
 
 #>
